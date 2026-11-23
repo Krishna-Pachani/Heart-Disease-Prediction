@@ -97,7 +97,7 @@ st.markdown(
     """
     <div class="hero">
         <h1>❤️ Heart Stroke Prediction</h1>
-        <p>Tamari health details bharo ane heart disease no risk check karo — by Krishna</p>
+        <p>Tamari health details bharo ane heart disease no risk check karo</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -236,4 +236,5 @@ if submitted:
                 ],
             }
         )
+
         st.dataframe(summary, hide_index=True, use_container_width=True)
