@@ -148,7 +148,7 @@ with st.form("prediction_form"):
         oldpeak = st.number_input("Oldpeak (ST Depression)", min_value=0.0, max_value=6.0, value=1.0, step=0.1, format="%.1f")
         st_slope = st.selectbox("ST Slope", ["Up", "Flat", "Down"])
 
-    submitted = st.form_submit_button("🔍 Predict Risk")
+    submitted = st.form_submit_button("Predict Risk")
 
 # ---------- Prediction ----------
 if submitted:
@@ -194,7 +194,7 @@ if submitted:
             """
             <div class="result-card result-high">
                 <h2>⚠️ High Risk of Heart Disease</h2>
-                <p>Tamari details mujab risk vadhare dekhay che. Please doctor ne consult karo.</p>
+                <p>According to your details, the risk is low. Keep up the healthy lifestyle!</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -204,7 +204,7 @@ if submitted:
             """
             <div class="result-card result-low">
                 <h2>✅ Low Risk of Heart Disease</h2>
-                <p>Tamari details mujab risk ochho che. Healthy lifestyle chalu rakho!</p>
+                <p>According to your details, the risk is low. Keep up the healthy lifestyle!</p>
             </div>
             """,
             unsafe_allow_html=True,
