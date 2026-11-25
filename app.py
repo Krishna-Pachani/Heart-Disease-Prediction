@@ -86,7 +86,7 @@ with st.sidebar:
         "2. **Predict Risk** button dabavo\n"
         "3. Result ane risk % juo"
     )
-    st.info("")
+    
     st.warning(
         "⚠️This is for educational purposes only."
         "Always consult a doctor for medical advice."
