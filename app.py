@@ -77,8 +77,8 @@ model, scaler, expected_columns = load_artifacts()
 with st.sidebar:
     st.markdown("## ❤️ About")
     st.write(
-        "This app uses a **machine learning model** that"
-        "It predicts the risk of heart disease based on your health details."
+        "This app uses a **KNN machine learning model** that "
+        "it predicts the risk of heart disease based on your health details."
     )
     st.markdown("### How to use")
     st.markdown(
@@ -97,7 +97,7 @@ st.markdown(
     """
     <div class="hero">
         <h1>❤️ Heart Stroke Prediction</h1>
-        <p>Tamari health details bharo ane heart disease no risk check karo</p>
+        <p>Enter your health details and check your risk of heart disease.</p>
     </div>
     """,
     unsafe_allow_html=True,
