@@ -83,7 +83,7 @@ with st.sidebar:
     st.markdown("### How to use")
     st.markdown(
         "1. Fill in all the details\n"
-        "2. **Press the 'Predict Risk' button\n"
+        "2. Press the 'Predict Risk' button\n"
         "3. View the result and the risk percentage"
     )
     
