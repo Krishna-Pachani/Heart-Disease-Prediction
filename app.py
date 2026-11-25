@@ -221,7 +221,7 @@ if submitted:
     if risk_pct is not None:
         st.progress(min(int(risk_pct), 100), text=f"Risk level: {risk_pct:.1f}%")
 
-    with st.expander("📋 Tame aapeli details juo"):
+    with st.expander("📋 Check the details you provided"):
         summary = pd.DataFrame(
             {
                 "Field": [
