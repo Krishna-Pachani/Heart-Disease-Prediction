@@ -86,10 +86,10 @@ with st.sidebar:
         "2. **Predict Risk** button dabavo\n"
         "3. Result ane risk % juo"
     )
-    st.info("Made by **Krishna** ❤️")
+    st.info("")
     st.warning(
-        "⚠️ Aa sirf educational purpose mate che. "
-        "Medical advice mate hamesha doctor ne maLo."
+        "⚠️This is for educational purposes only."
+        "Always consult a doctor for medical advice."
     )
 
 # ---------- Header ----------
