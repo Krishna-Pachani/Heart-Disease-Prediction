@@ -77,14 +77,14 @@ model, scaler, expected_columns = load_artifacts()
 with st.sidebar:
     st.markdown("## ❤️ About")
     st.write(
-        "Aa app ek **KNN machine learning model** use kare che je "
-        "tamara health details parthi heart disease no risk predict kare che."
+        "This app uses a **machine learning model** that"
+        "It predicts the risk of heart disease based on your health details."
     )
     st.markdown("### How to use")
     st.markdown(
-        "1. Badhi details bharo\n"
-        "2. **Predict Risk** button dabavo\n"
-        "3. Result ane risk % juo"
+        "1. Fill in all the details\n"
+        "2. **Press the 'Predict Risk' button\n"
+        "3. View the result and the risk percentage"
     )
     
     st.warning(
